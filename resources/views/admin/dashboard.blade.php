@@ -116,17 +116,10 @@
             </div>
           </div>
           <!-- /.nav-tabs-custom -->
-
-          <!-- quick email widget -->
-          <!-- end quick email widget -->
         </section>
         <!-- /.Left col -->
-
-        <!-- right col (We are only adding the ID to make the widgets sortable)-->
-        <!-- right col -->
       </div>
       <!-- /.row (main row) -->
-
     </section>
     <!-- /.content -->
 @stop

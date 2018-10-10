@@ -31,4 +31,15 @@ class User extends Authenticatable
     {
         return $this->role == 'superadmin' ? true : false;
     }
+
+    public function label() 
+    {
+        return (
+            ($this->role === 'superadmin') ? 'danger' : (
+                ($this->role === 'user') ? 'success' : (
+                    ($this->role === 'member') ? 'warning' : 'info'
+                )
+            )
+        );
+    }
 }
